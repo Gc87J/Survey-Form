@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="Stylesheet" href="/Stylesheet.css">
+    <title>Survey Form</title>
+</head>
+<body>
+    <header>
+    <h1 id="title">Survey Form</h1>
+    </header>
+
+    <p id="description">This survey form is used to gather information on the types of animes you are intreseted in. </p>
+   
+    <form id="survey-form" target="_blank" method="post"><br>
+
+    <label for="name" id="name-label" >Name:</label>
+    <input  id="name" type="text" required 
+    placeholder="Enter Name here"><br><br>
+   
+ 
+
+    <label for="email" id="email-label" >Email:</label>
+    <input  name="email" type="email" id="email" required 
+    placeholder ="Enter Email address here"><br><br>
+
+    <label for="number" id="number-label" >Number:</label>
+    <input required id="number"  min="5" maxlength="10" name="number"type="text" 
+    placeholder="Enter Number here"><br><br>
+   
+
+    <label for="male" id="radio-button">Male</label>
+    <input required name="male" id="radio-button" type="radio"><br><br>
+    
+    <label for="female" id="radio-button">Female </label>
+    <input name="female"  type="radio" ><br><br>
+
+    <div>
+        <label for="dropdown" id="dropdown-bar">Genre</label>
+        <select id="dropdown" name="dropdown" size="" ><br>
+        <option>Action</option>
+        <option>Adventure</option>
+        <option>Comedy</option>
+        </select>
+        </div>    
+
+    <label for="Check-box" id="Check-box">Boruto</label>
+    <input  type="checkbox" name="check-box"><br><br>
+    
+    <label for="Check-box" id="Check-box">Naruto</label>
+    <input  type="checkbox" name="check-box"><br><br>
+    
+    <label for="Check-box" id="Check-box">black clover</label>
+    <input  type="checkbox" name="check-box"><br><br>
+    
+
+    
+    <label for="message" id="message">Message:</label><br>
+     <textarea name="message" rows="10" cols="30" placeholder="Enter message here"></textarea>
+   <br>
+   <br>
+   <br>
+
+    <input id="submit" type="submit">
+    </form>
+    
+</body>
+</html>
