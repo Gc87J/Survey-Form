@@ -11,6 +11,7 @@ p{
     padding-left: 400px;
     color: #ffffff;
 }
+
 #survey-form{
     padding: 10px 60px 150px 310px;
     background:linear-gradient(30deg, #0e0d0d59, #f8f8f8);
@@ -45,7 +46,7 @@ p{
 }
 #dropdown{
     padding-left: 10%;
-     padding-top: 40%;
+     padding-top: 10px;
 }
 
 #message{

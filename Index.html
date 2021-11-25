@@ -10,7 +10,7 @@
 <body>
     <header>
     <h1 id="title">Survey Form</h1>
-    </header>
+    </header> 
 
     <p id="description">This survey form is used to gather information on the types of animes you are intreseted in. </p>
    
@@ -27,15 +27,16 @@
     placeholder ="Enter Email address here"><br><br>
 
     <label for="number" id="number-label" >Number:</label>
-    <input required id="number"  min="5" maxlength="10" name="number"type="text" 
+    <input id="number"  min="5" max="15"  name="number" type="number" 
     placeholder="Enter Number here"><br><br>
    
-
+    
     <label for="male" id="radio-button">Male</label>
-    <input required name="male" id="radio-button" type="radio"><br><br>
+    <input required name="radio" value="Male" id="radio-button" type="radio"><br><br>
     
     <label for="female" id="radio-button">Female </label>
-    <input name="female"  type="radio" ><br><br>
+    <input name="radio" value="Female"  type="radio" ><br><br>
+    
 
     <div>
         <label for="dropdown" id="dropdown-bar">Genre</label>
@@ -47,13 +48,13 @@
         </div>    
 
     <label for="Check-box" id="Check-box">Boruto</label>
-    <input  type="checkbox" name="check-box"><br><br>
+    <input  type="checkbox" value="Boruto" name="check-box"><br><br>
     
     <label for="Check-box" id="Check-box">Naruto</label>
-    <input  type="checkbox" name="check-box"><br><br>
+    <input  type="checkbox" value="Naruto" name="check-box"><br><br>
     
     <label for="Check-box" id="Check-box">black clover</label>
-    <input  type="checkbox" name="check-box"><br><br>
+    <input  type="checkbox" value="black clover" name="check-box"><br><br>
     
 
     
